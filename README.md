@@ -31,8 +31,6 @@ Java Spring Boot Bootcamp Project 1.0
 - PostgreSQL 12
 - PgAdmin
 - PostMan
-- Heroku Cli
-- NPM 9.5.0
 ## Back end
 - Java 17 
 - JDK 17 ZULU
