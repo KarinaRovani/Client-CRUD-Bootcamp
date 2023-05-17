@@ -1,4 +1,10 @@
-insert into tb_client(name, created_At) VALUES ('Gabrielle Cavalcanti Santos', NOW());
-insert into tb_client(name, created_At) VALUES ('Brenda Alves Oliveira', NOW());
-insert into tb_client(name, created_At) VALUES ('Isabelle Cavalcanti Rodrigues', NOW());
-insert into tb_client(name, created_At) VALUES ('Leonardo Pinto Ribeiro', NOW());
+insert into tb_client(name, cpf, income, birth_Date, children, created_At) VALUES ('Brenda Alves Oliveira','496.986.722-49', 500.00, '2018-04-28', 0,  NOW());
+insert into tb_client(name, cpf, income, birth_Date, children, created_At) VALUES ('Isabelle Cavalcanti Rodrigues','219.931.239-97', 10.000, '1980-07-01', 6,  NOW());
+insert into tb_client(name, cpf, income, birth_Date, children, created_At) VALUES ('Leonardo Pinto Ribeiro','689.980.440-99 ', 0.0, '2020-04-28', 1,  NOW());
+insert into tb_client(name, cpf, income, birth_Date, children, created_At) VALUES ('Rebeca Ribeiro Alves','305.709.250-02', 300.00, '1980-10-01', 2,  NOW());
+insert into tb_client(name, cpf, income, birth_Date, children, created_At) VALUES ('Leonardo Santos Cardoso','563.309.604-53', 2500.00, '1991-06-24', 3,  NOW());
+insert into tb_client(name, cpf, income, birth_Date, children, created_At) VALUES ('Camila Goncalves Azevedo','476.059.882-06', 5000.00, '1990-12-12', 2,  NOW());
+insert into tb_client(name, cpf, income, birth_Date, children, created_At) VALUES ('Marina Melo Barbosa','847.242.211-94', 100000.00, '1988-10-10', 2,  NOW());
+insert into tb_client(name, cpf, income, birth_Date, children, created_At) VALUES ('Erick Gomes Rodrigues','880.834.212-35', 1250.00, '1997-05-11', 0,  NOW());
+insert into tb_client(name, cpf, income, birth_Date, children, created_At) VALUES ('Rebeca Araujo Almeida','892.974.926-73', 600.00, '2000-01-01', 1,  NOW());
+insert into tb_client(name, cpf, income, birth_Date, children, created_At) VALUES ('Gabrielle Cavalcanti Santos','653.391.603-35', 1000.00, '2000-05-14', 0,  NOW());

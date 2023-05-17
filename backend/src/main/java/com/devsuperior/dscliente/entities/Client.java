@@ -23,10 +23,10 @@ public class Client implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String name;
-//	private String cpf;
-//	private Double income;
+	private String cpf;
+	private Double income;
 	private Instant birthDate;
-//	private Integer children;
+	private Integer children;
 	
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant createdAt;
@@ -65,6 +65,30 @@ public class Client implements Serializable {
 
 	public void setBirthDate(Instant birthDate) {
 		this.birthDate = birthDate;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public Double getIncome() {
+		return income;
+	}
+
+	public void setIncome(Double income) {
+		this.income = income;
+	}
+
+	public Integer getChildren() {
+		return children;
+	}
+
+	public void setChildren(Integer children) {
+		this.children = children;
 	}
 
 	public Instant getCreatedAt() {

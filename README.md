@@ -7,7 +7,9 @@
 
 # About
 This project was developed for the Java Spring Bootcamp. This was the project 1.0: Case study about CRUD.
+
 In this Spring Boot project, was studied how to create Git monorepository, organize project in layers, create entities, project profiles, database seeding, create REST web services, DTO pattern, full CRUD, exception handling, audit data and paging of data. 
+
 
 Java Spring Boot Bootcamp Project 1.0
 
@@ -64,6 +66,6 @@ Java Spring Boot Bootcamp Project 1.0
 -->
 
 <h5 align="center">
-  &copy;2021 - <a href="https://github.com/KarinaRovani/">Karina de Oliveira Rovani</a>
+  &copy;2023 - <a href="https://github.com/KarinaRovani/">Karina de Oliveira Rovani</a>
 </h5>
 
